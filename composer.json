@@ -1,0 +1,21 @@
+{
+    "name": "striedinger/payubutton",
+    "description": "Generador de boton de compras para web checkout de PayU Latam",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hugo Striedinger",
+            "email": "striedingerh@uninorte.edu.co"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": { 
+        "php": ">=5.4",
+        "illuminate/support": "~5.0.17|5.1.*|5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "striedinger\\PayUButton\\": "src/"
+        }
+    }
+}
